@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+}
+
+.header .nav ul  {
+	display: inline;
+}
+
+.alles {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1025px;
+}
+
+.header .nav ul li {
+	display: inline;
+}
+
+.header .nav ul li a {
+	text-decoration: none;
+	float: right;
+	margin-right: 40px;
+	margin-top: 50px;
+	color: #385064;
+	font-family: Arial;
+	font-size: 13pt;
+}
+
+.header .nav ul li a:hover {
+	text-decoration: underline;
+	color: #81A8BC;
+}
+
+.header .nav {
+	background-image: url(logo.png), url(header_bg.png);
+	background-repeat: no-repeat, repeat-x;
+	height: 122px;
+	padding-top: 10px, 0px;
+}
+
+.banner {
+	margin-top: -25px;
+	background-image: url(banner.jpg), url(banner_bg.png);
+	background-repeat: no-repeat, repeat-x;
+	height: 425px;
+	background-position: 1% 20%, center;
+	
+}
+.banner .text {
+	width: 800px;
+	height: 425px;
+	margin-left: 50%;
+}
+
+.banner .text h1 {
+	color: white;
+	font-family: Tahoma;
+	font-size: 20pt;
+	margin-left: 10%;
+	margin-right: 30%;
+	padding-top: 2%;
+	padding-left: 15%;
+}
+
+.banner .text p {
+	font-family: Tahoma;
+	color: white;
+	font-size: 10pt;
+	line-height: 155%;
+	margin-left: 10%;
+	margin-right: 40%;
+	padding-top: 1%;
+	padding-left: 15%;
+}
+
+.producten {
+	padding-left: 1%;
+	margin-top: 2%;
+	line-height: 155%;
+	display: table;
+	width: 1025px;
+}
+
+.producten h1 {
+	font-family: Tahoma;
+	font-size: 15pt;
+	font-weight: normal;
+	color: #555555;
+}
+
+.producten p {
+	font-family: Tahoma;
+	font-size: 10pt;
+	padding-right: 2%;
+}
+
+.producten a {
+	color: #555555;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.producten a:hover {
+	text-decoration: underline;
+}
+
+.producten .product1 {
+	display: table-cell;
+	width: 341px;
+}
+
+.producten .product2 {
+	display: table-cell;
+	width: 341px;
+}
+
+.producten .product3 {
+	display: table-cell;
+	width: 341px;
+}
+
+.footer {
+	background-image: url(footer_bg.png);
+	background-repeat: repeat-x;
+	width: 1025px;
+	height: 50px;
+}
+
+.footer p{
+	padding-top: 2%;
+	color: white;
+	font-family: Tahoma;
+	font-size: 9pt;
+	text-align: center;
+}
